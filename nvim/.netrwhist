@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/shaggy/.config/polybar/colorblocks'
+let g:netrw_dirhist_6='/home/shaggy/.config/polybar'
+let g:netrw_dirhist_5='/home/shaggy/.config'
+let g:netrw_dirhist_4='/home/shaggy/.config/polybar'
+let g:netrw_dirhist_3='/home/shaggy/.config/polybar/panels'
+let g:netrw_dirhist_2='/home/shaggy/.config/polybar/panels/menu'
+let g:netrw_dirhist_1='/home/shaggy/.config/polybar/panels'
+let g:netrw_dirhist_0='/home/shaggy/.config/polybar/panels/panel'
+let g:netrw_dirhist_9='/home/shaggy/.config/polybar/colorblocks'
+let g:netrw_dirhist_8='/home/shaggy/.config/polybar/colorblocks/scripts'

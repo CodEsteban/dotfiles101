@@ -1,0 +1,10 @@
+wal/
+ranger/
+qbittorrent/
+pulse/
+procps/
+coc/
+flameshot/
+dconfig/
+QtProject.conf
+nvim/plugged
