@@ -6,6 +6,7 @@ If you use dwm or xmonad, you might still have to slighly change some settings
 
 ### FIRST OF ALL
 time for installing some dependencies.
+
 [Neovim](https://wiki.archlinux.org/title/Neovim/)  · Text editor
 
 [Polybar](https://wiki.archlinux.org/title/Polybar) · Taskbar
