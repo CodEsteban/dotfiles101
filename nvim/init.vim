@@ -9,13 +9,19 @@ Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 set nowrap
-set enc=utf-8
+set encoding=utf-8
+set ignorecase
+set mouse=a
+set number
+set syntax
+set autoindent
+set showmatch
 set relativenumber
 set smartindent
 let g:airline_theme ='transparent'
+set termguicolors
 colorscheme miramare
 set expandtab ts=4 sw=4 ai
 set list lcs=tab:\▏\ 
 let g:miramare_enable_italic_string = 1
-set termguicolors
 
