@@ -8,3 +8,6 @@ flameshot/
 dconfig/
 QtProject.conf
 nvim/plugged
+mimeapps.list
+wireshark/
+
