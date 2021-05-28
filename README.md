@@ -32,6 +32,8 @@ time for installing some dependencies.
 
 [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) · Icons
 
+[Bubblified](https://github.com/hohmannr/bubblified) · zsh theme
+
 
 # Installation
 Once you have installed dependencies
