@@ -1,6 +1,6 @@
 # dotfiles101
 this is the whole configuration, i stole some dotfiles and modified them as i like (for the sake of not being a normie)
-![take a look](ricing.png)
+![take a look](rice.jpg)
 in terms of perfomance it behaves pretty well, is very minimal except for [Picom](https://wiki.archlinux.org/title/Picom), blur does not run as i expected, seem bloated just for now 
 If you use dwm or xmonad, you might still have to slighly change some settings
 
