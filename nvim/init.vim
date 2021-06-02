@@ -10,10 +10,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 set nowrap
 set encoding=utf-8
+syntax on
 set ignorecase
 set mouse=a
 set number
-set syntax
 set autoindent
 set showmatch
 set relativenumber

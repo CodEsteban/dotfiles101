@@ -1,6 +1,12 @@
 wal/
+okularrc
+configstore/
+htop/
+vlc/
 ranger/
+menus/
 qBittorrent/
+galculator/
 pulse/
 procps/
 coc/

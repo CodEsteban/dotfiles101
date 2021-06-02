@@ -217,8 +217,10 @@ bar {
   }
 }
 
-exec_always --no-startup-id ~/.config/polybar/launch.sh&
+exec_always --no-startup-id picom
 exec_always --no-startup-id xrandr --output LVDS-1 --right-of VGA-1
 exec_always --no-startup-id feh -z --bg-fill /home/shaggy/Pictures/Wallpapers
-exec_always --no-startup-id picom
+exec_always --no-startup-id ~/.config/polybar/launch.sh&
 
+bindsym $mod+Shift+minus exec amixer sset 'Master' 2%-
+bindsym $mod+Shift+plus exec amixer sset 'Master' 2%+
