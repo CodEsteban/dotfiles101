@@ -39,7 +39,7 @@ time for installing some dependencies.
 Once you have installed dependencies
 
 Execute to followig command
-> git clone https://github.com/CodEsteban/dotfiles101 ~/.config/stolendofiles && cd ~/.config/stolenfiles 
+> git clone https://github.com/CodEsteban/dotfiles101 ~/.config/stolendotfiles && cd ~/.config/stolendotfiles 
 
 Move up the folder you need
 >mv [folder1] [folder2] ..
