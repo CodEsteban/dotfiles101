@@ -12,7 +12,6 @@ set nowrap
 set encoding=utf-8
 syntax on
 set ignorecase
-set mouse=a
 set number
 set autoindent
 set showmatch
