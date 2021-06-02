@@ -1,4 +1,9 @@
 wal/
+fontconfig/
+font-manager/
+google-chrome/
+nvim/.netrwhist
+dconf/
 okularrc
 configstore/
 htop/
@@ -11,9 +16,9 @@ pulse/
 procps/
 coc/
 flameshot/
-dconfig/
 QtProject.conf
 nvim/plugged
 mimeapps.list
 wireshark/
+.gitignore
 
