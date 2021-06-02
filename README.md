@@ -24,7 +24,7 @@ time for installing some dependencies.
 [Iosevka Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-iosevka/)
 
 **I suggest you to install Kitty or Alacritty as terminal**,
- my pc does not supports opengl >3.3, if this is your case, goto way is Termite.
+ my pc does not support opengl >3.3, if this is your case, your goto way is Termite.
  
 ----
 ### Optional
@@ -42,4 +42,4 @@ Execute to followig command
 > git clone https://github.com/CodEsteban/dotfiles101 ~/.config/stolendofiles && cd ~/.config/stolenfiles 
 
 Move up the folder you need
->mv [folder1] [folder2] [two dots]
+>mv [folder1] [folder2] ..
