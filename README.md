@@ -23,6 +23,8 @@ time for installing some dependencies.
 
 [Iosevka Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-iosevka/)
 
+[Cava](https://github.com/karlstav/cava)
+
 **I suggest you to install Kitty or Alacritty as terminal**,
  my pc does not support opengl >3.3, if this is your case, your goto way is Termite.
  
@@ -43,3 +45,5 @@ Execute to followig command
 
 Move up the folder you need
 >mv [folder1] [folder2] ..
+
+thanks to this guy, i will pull request cuz i found an error with his script, check his repo [polybar-cava](https://github.com/ray-pH/polybar-cava)
