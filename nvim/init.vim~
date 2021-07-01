@@ -1,3 +1,4 @@
+set nocompatible
 call plug#begin('~/.config/nvim/plugged')
 Plug 'honza/vim-snippets'
 Plug 'mattn/emmet-vim'
@@ -12,7 +13,6 @@ call plug#end()
 set nowrap
 set swapfile
 set backup
-set backupdir=~/tmp
 set directory=~/tmp//
 let g:user_emmet_settings = {
 \  'javascript' : {

@@ -13,9 +13,6 @@
 bindsym $mod+minus move scratchpad
 bindsym $mod+plus scratchpad show; floating toggle
 
-# Show the sup-mail scratchpad window, if any.
-
-bindsym $mod+o [title="^Sup ::"] scratchpad show
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -85,16 +82,16 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left 10px
+bindsym $mod+Shift+j move down 10px
+bindsym $mod+Shift+k move up 10px
+bindsym $mod+Shift+l move right 10px
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Left move left 50px
+bindsym $mod+Shift+Down move down 50px
+bindsym $mod+Shift+Up move up 50px
+bindsym $mod+Shift+Right move right 50px
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -174,16 +171,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 30 px or 30 ppt
-        bindsym k resize grow height 30 px or 30 ppt
-        bindsym l resize shrink height 30 px or 30 ppt
-        bindsym semicolon resize grow width 30 px or 30 ppt
+        bindsym h resize shrink width 5 px or 5 ppt
+        bindsym j resize grow height 5 px or 5 ppt
+        bindsym k resize shrink height 5 px or 5 ppt
+        bindsym l resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 30 px or 30 ppt
-        bindsym Down resize grow height 30 px or 30 ppt
-        bindsym Up resize shrink height 30 px or 30 ppt
-        bindsym Right resize grow width 30 px or 30 ppt
+        bindsym Left resize shrink width 20 px or 20 ppt
+        bindsym Down resize grow height 20 px or 20 ppt
+        bindsym Up resize shrink height 20 px or 20 ppt
+        bindsym Right resize grow width 20 px or 20 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -217,10 +214,13 @@ bar {
   }
 }
 
-exec_always --no-startup-id picom
 exec_always --no-startup-id xrandr --output LVDS-1 --right-of VGA-1
+exec_always --no-startup-id picom
 exec_always --no-startup-id feh -z --bg-fill /home/shaggy/Pictures/Wallpapers
 exec_always --no-startup-id ~/.config/polybar/launch.sh&
 
 bindsym $mod+Shift+minus exec amixer sset 'Master' 2%-
 bindsym $mod+Shift+plus exec amixer sset 'Master' 2%+
+
+exec_always --no-startup-id cpulimit --limit=80 -i  -e /sbin/init
+bindsym $mod+p exec killall polybar picom i3bar
