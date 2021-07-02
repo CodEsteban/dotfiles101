@@ -223,4 +223,4 @@ bindsym $mod+Shift+minus exec amixer sset 'Master' 2%-
 bindsym $mod+Shift+plus exec amixer sset 'Master' 2%+
 
 exec_always --no-startup-id cpulimit --limit=80 -i  -e /sbin/init
-bindsym $mod+p exec killall polybar picom i3bar
+bindsym $mod+p exec killall polybar picom i3bar cava
