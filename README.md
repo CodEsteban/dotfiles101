@@ -3,7 +3,7 @@ this is the whole configuration, i stole some dotfiles and modified them as i li
 ![take a look](rice.png)
 in terms of perfomance it behaves pretty well, is very minimal except for [Picom](https://wiki.archlinux.org/title/Picom), blur does not run as i expected, seem bloated just for now 
 If you use dwm or xmonad, you might still have to slighly change some settings
-
+![[polybar-cava](https://github.com/ray-pH/polybar-cava)](polybar-cava.gif)
 ### FIRST OF ALL
 time for installing some dependencies.
 
@@ -45,5 +45,3 @@ Execute to followig command
 
 Move up the folder you need
 >mv [folder1] [folder2] ..
-
-thanks to this guy, i will pull request cuz i found an error with his script, check his repo [polybar-cava](https://github.com/ray-pH/polybar-cava)
