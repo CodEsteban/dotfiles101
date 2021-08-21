@@ -1,0 +1,26 @@
+{
+    "type": "floating_con",
+    "x": 0,   
+    "y": 321,
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "geometry": {
+               "height": 280,
+               "width": 310,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "FLOATING",
+            "percent": null,
+            "swallows": [
+               {
+                "class": ".*"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
