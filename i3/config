@@ -159,8 +159,8 @@ bindsym $mod+Shift+4 move container to workspace number $ws4
 #bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # custom gaps
-workspace $ws2 gaps outer 10
-workspace $ws2 gaps inner 10
+workspace $ws4 gaps outer 10
+workspace $ws4 gaps inner 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
